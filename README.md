@@ -2,6 +2,8 @@
 
 This repository contains a Bash script to generate self-signed SSL certificates with Subject Alternative Names (SANs) for local development or homelab use. The script uses a custom OpenSSL configuration file for SANs and organizes all generated files in a folder named after your certificate.
 
+Note: This script is intended for homelabs, internal networks, or development use. It creates self-signed SAN certificates with a private CA. For public-facing HTTPS, tools like Certbot/Let’s Encrypt are simpler and trusted by browsers.
+
 ⚠️ Use at your own risk. The author is not responsible for any damage or misuse.
 
 ## Features
