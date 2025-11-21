@@ -1,3 +1,8 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Shell Script](https://img.shields.io/badge/language-bash-blue)
+![Platform](https://img.shields.io/badge/platform-Linux-lightgrey)
+
+
 # SSL Certificate Generator with SAN Support
 
 This repository contains a Bash script to generate self-signed SSL certificates with Subject Alternative Names (SANs) for local development or homelab use. The script uses a custom OpenSSL configuration file for SANs and organizes all generated files in a folder named after your certificate.
